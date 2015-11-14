@@ -1,0 +1,71 @@
+/*    Base
+===================================*/
+body,html {
+  background-color: #e6e6e6;
+  height: 100%;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 5.0em;
+  text-align: center;
+  padding: 2% 0;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.about h3 {
+  color: #f5dfb3;
+}
+
+.about h4 {
+  color: white;
+}
+
+.main-content h3 {
+  font-weight: bold;
+}
+
+/*    Layout
+===================================*/
+.container-fluid {
+  margin: 0 auto;
+  height: 100%;
+  padding: 0;
+
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.main-header {
+  background-color: #f5dfb3;
+}
+
+.columns {
+    height: 100%;
+}
+
+.about {
+  background-color: #8fbc8e;
+  margin-top: 20px;
+  height: calc(100%);
+}
+
+.main-content {
+  background-color: #e6e6e6;
+  padding: 2% 0  0 2%;
+  overflow: auto;
+  height: 100%;
+}
+
+
+/*    Components
+===================================*/
+.btn {
+  background: #bfbfbf;
+  color: black;
+  border-color: #bfbfbf;
+}
