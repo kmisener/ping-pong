@@ -62,7 +62,7 @@ $(document).ready(function() {
   }); //end form submit
 }); // end document.ready()
 
-//Remove row-eq-height class for mobile device
+//Remove row-eq-height class for mobile device for full width columns
 $(window).resize(function(){
    var width = $(window).width();
    var rowEqHeight = $('#content').hasClass('row-eq-height');
