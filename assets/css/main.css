@@ -101,3 +101,16 @@ label {
   color: black;
   border-color: #bfbfbf;
 }
+
+/*    Media
+===================================*/
+@media (max-width: 768px) {
+  .about {
+    padding-left: 40px;
+    padding-bottom: 20px;
+  }
+  .main-content {
+    padding-top: 20px
+  }
+
+}

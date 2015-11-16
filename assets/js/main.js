@@ -61,3 +61,19 @@ $(document).ready(function() {
     event.preventDefault();
   }); //end form submit
 }); // end document.ready()
+
+//Remove row-eq-height class for mobile device
+$(window).resize(function(){
+   var width = $(window).width();
+   var rowEqHeight = $('#content').hasClass('row-eq-height');
+
+   if(width < 768){
+       $('#content').removeClass('row-eq-height');
+   }
+   else {
+     if(!rowEqHeight) {
+       $('#content').addClass('row-eq-height');
+     }
+   }
+})
+.resize();
