@@ -116,8 +116,6 @@ label {
     padding-left: 30px;
     padding-top: 20px
   }
-<<<<<<< HEAD
-=======
 }
 
 @media (max-width: 360px) {
@@ -126,11 +124,11 @@ label {
   }
 
   .about {
-    padding: 15px;
+    padding-left: 20px;
   }
 
   .main-content {
-    padding: 15px
+    padding-left: 20px;
+    padding-right: 20px;
   }
->>>>>>> responsive
 }
