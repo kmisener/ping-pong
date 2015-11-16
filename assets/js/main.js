@@ -67,7 +67,7 @@ $(window).resize(function(){
    var width = $(window).width();
    var rowEqHeight = $('#content').hasClass('row-eq-height');
 
-   if(width < 768){
+   if(width < 750){
        $('#content').removeClass('row-eq-height');
    }
    else {
