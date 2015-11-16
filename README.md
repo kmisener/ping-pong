@@ -1,7 +1,7 @@
 # **ping-pong**  
 
 ### **By: Kyle Misener**
-Ping Pong is a sample JavaScript application for demonstrating basic proficiency in JavaScript, JQuery, Git, Markdown, HTML, Bootstrap, CSS and BDD.**
+Ping Pong is a sample JavaScript application for demonstrating basic proficiency in JavaScript, JQuery, Git, Markdown, HTML, Bootstrap, CSS and BDD.
 
  A user enters a number and is shown a range of numbers from 1 to the number entered with the following exceptions:**
 
@@ -11,11 +11,11 @@ Ping Pong is a sample JavaScript application for demonstrating basic proficiency
 
 
 ## **Installation**
-Install ping-pong by cloning this repository:**
+Install ping-pong by cloning this repository:
 
 
     https://github.com/kmisener/ping-pong
 
-## **License**
+## **License
 
 MIT License. Copyright 2015 Kyle Misener**
