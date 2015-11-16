@@ -69,11 +69,11 @@ $(window).resize(function(){
 
    if(width < 750){
        $('#content').removeClass('row-eq-height');
-   }
+   } //end if
    else {
      if(!rowEqHeight) {
        $('#content').addClass('row-eq-height');
-     }
-   }
-})
+     } //end if
+   } //end else
+}) //end window.resize()
 .resize();
